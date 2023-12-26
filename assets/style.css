@@ -6,7 +6,7 @@
   --buttons--game: rgba(37, 41, 88, 0.9); /* Paua Colour Scheme */
   --btn--brand: #9a8dfb;
   --btn-brand2: #6d72ff79;
-  --border-segment: 3px solid rgba(37, 41, 88, 0.9);
+  --border-segment: 7px solid rgba(37, 41, 88, 0.9);
 }
 
 body {
@@ -23,9 +23,45 @@ h1 {
   color: var(--font--header-);
 }
 
+/* buttons section */
 .choices button {
   font-size: 8.5rem;
   margin: 10px;
   background-color: var(--buttons--game);
   border-radius: 25%;
+  border: var(--border-segment);
+  cursor: pointer;
+  transition: 0.5 ease;
+}
+
+.choices button:hover {
+  background-color: rgba(37, 41, 88, 0.7);
+}
+
+/* Display section */
+
+#displayPlayer,
+#displayBot {
+  font-size: 3rem;
+}
+
+#displayResults {
+  margin-top: 2rem;
+  font-size: 3.5rem;
+}
+
+/* If you win or lose the game  */
+
+.greenWin,
+#playerScoreDisplay {
+  color: greenyellow;
+}
+
+.redLost,
+#botScoreDisplay {
+  color: red;
+}
+
+.scoreDisplay {
+  font-size: 2rem;
 }

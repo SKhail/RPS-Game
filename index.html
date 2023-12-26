@@ -27,9 +27,9 @@
 
       <!-- The options provided -->
       <div class="choices mb-3">
-        <button onclick="playgame('rock')">🪨</button>
-        <button onclick="playgame('paper')">🧻</button>
-        <button onclick="playgame('scissors')">✂️</button>
+        <button onclick="game('Rock')">🪨</button>
+        <button onclick="game('Paper')">🧻</button>
+        <button onclick="game('Scissors')">✂️</button>
       </div>
 
       <!-- Human score -->
@@ -39,11 +39,26 @@
       <!-- Display the winner -->
       <div id="displayResults">The winner is:</div>
     </div>
-    <!-- <script src="./assets/app.js"></script> -->
+
+    <div
+      class="d-flex flex-column bd-highlight mb-3 align-items-center scoreDisplay"
+    >
+      Player Score:
+      <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div
+      class="d-flex flex-column bd-highlight mb-3 align-items-center scoreDisplay"
+    >
+      Computer Score:
+      <span id="botScoreDisplay">0</span>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/app.js"></script>
   </body>
 </html>

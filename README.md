@@ -27,9 +27,9 @@ Rock, Paper, Scissors is game played between two people, where each player has a
 
 ## Technology Stack
 
-![JavaScript] (assets/images/js.png)
-![HTML] (assets/images/html.png)
-![CSS] (assets/images/css.png)
+<img src="assets/images/js.png" width="50" height="50">
+<img src="assets/images/css.png" width="50" height="50">
+<img src="assets/images/html.png" width="50" height="50">
 
 ## Credits
 
@@ -50,5 +50,3 @@ N/A
 ## Testing
 
 N/A
-
-## Resource

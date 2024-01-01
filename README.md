@@ -1,4 +1,4 @@
-# TicTacToe-Game
+# RPS-Game
 
 ## Description
 

@@ -21,15 +21,11 @@ Rock, Paper, Scissors is game played between two people, where each player has a
 3.  You will have it in your local machines and can start the Application.
 4.  A screenshot location will be provided below to show how the game looks:
 
-    ```md
-    ![alt text] (assets/images/TicTacToe.png)
-    ```
+    <img src="./assets/images/RPS Screenshot.png" alt="RPS" />
 
-## Technology Stack
+## Feature
 
-<img src="assets/images/js.png" width="50" height="50">
-<img src="assets/images/css.png" width="50" height="50">
-<img src="assets/images/html.png" width="50" height="50">
+N/A
 
 ## Credits
 
@@ -38,15 +34,3 @@ N/A
 ## License
 
 This project is licened under the MIT License.
-
-## Badges
-
-N/A
-
-## Features
-
-N/A
-
-## Testing
-
-N/A
